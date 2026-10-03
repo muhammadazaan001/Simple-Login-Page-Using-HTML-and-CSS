@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Login Page</title>
+    <style>
+        body{
+            height: 80dvh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #211d19;
+        }
+        .container{
+            text-align: center;
+            padding: 55px;
+            background-color:#24241f;
+            border-radius: 34px;
+        }
+        input{
+            box-sizing: border-box;
+            padding: 7px;
+            border: 1px solid darkolivegreen;
+            border-radius: 2px;
+            width: 100%;
+            margin: 10px 0;
+        }
+        button{
+            padding: 13px;
+            border-radius: 15px;
+            width: 100%;
+            margin-top: 25px;
+            background-color:blue ;
+            color: white;
+            border: none;
+            font-size: large;
+            transition: background-color 0.2s;
+        }
+        h1{
+            color: white;
+            font-weight: bold;
+        }
+        button:hover{
+            background-color: #211d19;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form action="">
+            <input type="text" id="Username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
